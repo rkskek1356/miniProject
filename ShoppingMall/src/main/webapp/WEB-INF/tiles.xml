@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="home" template="/WEB-INF/jsp/layout/template.jsp">
+		<put-attribute name="title" 		value="Welcome to Home!!" />
+		<put-attribute name="css" 			value="/WEB-INF/jsp/layout/css.jsp" />
+		<put-attribute name="preloader"		value="/WEB-INF/jsp/layout/preloader.jsp" />
+		<put-attribute name="offcanvas"		value="/WEB-INF/jsp/layout/offcanvas.jsp"/>
+		<put-attribute name="head" 			value="/WEB-INF/jsp/layout/head.jsp" />
+		<put-attribute name="hero"			value="/WEB-INF/jsp/layout/hero.jsp"/>
+		<put-attribute name="banner"		value="/WEB-INF/jsp/layout/banner.jsp"/>
+		<put-attribute name="product"		value="/WEB-INF/jsp/layout/product.jsp"/>
+		<put-attribute name="category"		value="/WEB-INF/jsp/layout/category.jsp"/>
+		<put-attribute name="instagram"		value="/WEB-INF/jsp/layout/instagram.jsp"/>
+		<put-attribute name="blog"			value="/WEB-INF/jsp/layout/blog.jsp"/>
+		<put-attribute name="foot"			value="/WEB-INF/jsp/layout/foot.jsp"/>
+		<put-attribute name="search"		value="/WEB-INF/jsp/layout/search.jsp"/>
+		<put-attribute name="jsplugin"		value="/WEB-INF/jsp/layout/jsplugin.jsp"/>
+	</definition>
+
+	<definition name="WILDCARD:*/*" extends="home">
+		<put-attribute name="body" value="/WEB-INF/jsp/{1}/{2}.jsp" />
+	</definition>
+</tiles-definitions>
