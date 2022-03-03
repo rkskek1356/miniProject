@@ -7,11 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-4444444
-
-55555
-
-666666
 
 </body>
 </html>
