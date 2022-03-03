@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.shop.web.About;
+
 //@WebServlet("/FrontController")
 public class FrontController extends HttpServlet {
 
@@ -23,6 +25,7 @@ public class FrontController extends HttpServlet {
 	public void init(ServletConfig config) throws ServletException {
 		// TODO 호출명 저장소
 		map.put("/main.do", new MainPage()); // 시작페이지
+		map.put("/about.do", new About()); // 회사정보
 	}
 
 	protected void service(HttpServletRequest request, HttpServletResponse response)

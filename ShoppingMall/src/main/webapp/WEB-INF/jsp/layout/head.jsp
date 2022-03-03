@@ -15,15 +15,6 @@
                         <div class="header__top__right">
                             <div class="header__top__links">
                                 <a href="#">Sign in</a>
-                                <a href="#">FAQs</a>
-                            </div>
-                            <div class="header__top__hover">
-                                <span>Usd <i class="arrow_carrot-down"></i></span>
-                                <ul>
-                                    <li>USD</li>
-                                    <li>EUR</li>
-                                    <li>USD</li>
-                                </ul>
                             </div>
                         </div>
                     </div>
@@ -42,17 +33,19 @@
                         <ul>
                             <li class="active"><a href="./index.html">Home</a></li>
                             <li><a href="./shop.html">Shop</a></li>
-                            <li><a href="#">Pages</a>
+                           
+                            <li><a href="./about.html">About Us</a></li>
+                            
+                            <li><a href="#">My Page</a>
                                 <ul class="dropdown">
-                                    <li><a href="./about.html">About Us</a></li>
-                                    <li><a href="./shop-details.html">Shop Details</a></li>
-                                    <li><a href="./shopping-cart.html">Shopping Cart</a></li>
-                                    <li><a href="./checkout.html">Check Out</a></li>
-                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                    <li><a href="./.html">장바구니</a></li>
+                                    <li><a href="./.html">주문내역</a></li>
+                                    <li><a href="./.html">좋아요</a></li>
+                                    <li><a href="./.html">최근 본 상품</a></li>
                                 </ul>
                             </li>
-                            <li><a href="./blog.html">Blog</a></li>
-                            <li><a href="./contact.html">Contacts</a></li>
+                            
+                            <li><a href="./community.html">Community</a></li>
                         </ul>
                     </nav>
                 </div>
