@@ -11,7 +11,7 @@ public class About implements DbCommand {
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
 		
 		
-		return null;
+		return "main/WEB-INF/jsp/about.tiles";
 	}
 
 }

@@ -8,7 +8,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-7">
                         <div class="header__top__left">
-                            <p>Free shipping, 30-day return or refund guarantee.</p>
+                            <p>응애</p>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5">
@@ -31,10 +31,10 @@
                 <div class="col-lg-6 col-md-6">
                     <nav class="header__menu mobile-menu">
                         <ul>
-                            <li class="active"><a href="./index.html">Home</a></li>
+                            <li class="active"><a href="./index.jsp">Home</a></li>
                             <li><a href="./shop.html">Shop</a></li>
                            
-                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./about.jsp">About Us</a></li>
                             
                             <li><a href="#">My Page</a>
                                 <ul class="dropdown">
@@ -45,7 +45,14 @@
                                 </ul>
                             </li>
                             
-                            <li><a href="./community.html">Community</a></li>
+                            <li><a href="#">Community</a>
+                            	<ul class="dropdown">
+                                    <li><a href="./.html">공지사항</a></li>
+                                    <li><a href="./.html">자주묻는질문</a></li>
+                                    <li><a href="./.html">문의</a></li>
+                                    <li><a href="./.html">고객지원센터</a></li>
+                                </ul>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -54,7 +61,6 @@
                         <a href="#" class="search-switch"><img src="img/icon/search.png" alt=""></a>
                         <a href="#"><img src="img/icon/heart.png" alt=""></a>
                         <a href="#"><img src="img/icon/cart.png" alt=""> <span>0</span></a>
-                        <div class="price">$0.00</div>
                     </div>
                 </div>
             </div>
