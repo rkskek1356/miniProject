@@ -9,8 +9,6 @@ public class About implements DbCommand {
 
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response) {
-		
-		
 		return "main/WEB-INF/jsp/about.tiles";
 	}
 

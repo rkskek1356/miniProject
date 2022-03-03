@@ -1,6 +1,29 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 
+
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__option">
+            <div class="offcanvas__links">
+                <a href="#">Sign in</a>
+             
+            </div>
+
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__text">
+            <p>Free shipping, 30-day return or refund guarantee.</p>
+        </div>
+    </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
 <!-- Header Section Begin -->
     <header class="header">
         <div class="header__top">
@@ -32,7 +55,7 @@
                     <nav class="header__menu mobile-menu">
                         <ul>
                             <li class="active"><a href="./index.jsp">Home</a></li>
-                            <li><a href="./shop.html">Shop</a></li>
+                            <li><a href="./shop.do">Shop</a></li>
                            
                             <li><a href="./about.jsp">About Us</a></li>
                             

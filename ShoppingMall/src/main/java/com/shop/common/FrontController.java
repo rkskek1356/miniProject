@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.shop.web.About;
+import com.shop.web.Shop;
 
 //@WebServlet("/FrontController")
 public class FrontController extends HttpServlet {
@@ -26,7 +27,7 @@ public class FrontController extends HttpServlet {
 		// TODO 호출명 저장소
 		map.put("/main.do", new MainPage()); // 시작페이지
 		map.put("/about.do", new About()); // 회사정보
-		//map.put("/shop.do", new shop()); //shop 정보
+		map.put("/shop.do", new Shop()); //shop 정보
 		//map.put("/community.do", new community());
 	}
 
